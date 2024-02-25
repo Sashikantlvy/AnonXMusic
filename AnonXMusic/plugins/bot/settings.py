@@ -10,7 +10,7 @@ from pyrogram.types import (
     InputMediaVideo,
 )
 
-from AnonXMusic import app, GB
+from AnonXMusic import app
 from AnonXMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
