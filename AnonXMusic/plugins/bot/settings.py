@@ -187,7 +187,7 @@ async def gib_repo(client, CallbackQuery, _):
     
 @app.on_callback_query(filters.regex("allrepo") & ~BANNED_USERS)
 @languageCB
-async def gib_repo(client, CallbackQuery, _):
+async def support(client, CallbackQuery, _):
     await CallbackQuery.edit_message_media(
         InputMediaphoto("https://te.legra.ph/file/f60ebb75ad6f2786efa4e.jpg", caption="ᴛʜɪs ɪs ᴀ ʀᴇᴘᴏ ᴀɴᴅ ᴅᴏɴᴀᴛᴇ sᴇᴄᴛɪᴏɴ :\n\n\nFᴇᴇʟ Fʀᴇᴇ ᴛᴏ Dᴏɴᴀᴛᴇ Fᴏʀ Oᴜʀ Wᴏʀᴋ...\nᴀɴᴅ\n\n💝sᴘʀᴇᴀᴅɪɴɢ ʟᴏᴠᴇ...💖"),
         reply_markup=InlineKeyboardMarkup(
