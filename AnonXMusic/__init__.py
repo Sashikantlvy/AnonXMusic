@@ -6,7 +6,6 @@ from AnonXMusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
-GB = ["https://telegra.ph/file/1dcb30951b56483758483.jpg"]
 
 dirr()
 git()
