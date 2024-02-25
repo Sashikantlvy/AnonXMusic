@@ -94,6 +94,8 @@ async def support(client, CallbackQuery, _):
                     ),
                 ],
             ]
+        ),
+    )
             
 
 @app.on_callback_query(filters.regex("lood") & ~BANNED_USERS)
