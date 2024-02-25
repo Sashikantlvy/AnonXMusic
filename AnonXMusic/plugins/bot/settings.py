@@ -72,7 +72,7 @@ async def gib_repo(client, CallbackQuery, _):
                     InlineKeyboardButton(
                         text="ᴄʟᴏsᴇ", callback_data=f"close"
                     ),
-                ]
+                ],
             ]
         ),
     )
@@ -180,7 +180,7 @@ async def gib_repo(client, CallbackQuery, _):
                     InlineKeyboardButton(
                         text="ᴄʟᴏsᴇ", callback_data=f"close"
                     ),
-                ]
+                ],
             ]
         ),
     )
@@ -215,7 +215,7 @@ async def gib_repo(client, CallbackQuery, _):
                     InlineKeyboardButton(
                         text="ᴄʟᴏsᴇ", callback_data=f"close"
                       ),
-                   ]
+                   ],
              ]
         ),
     )
