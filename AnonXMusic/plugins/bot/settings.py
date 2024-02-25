@@ -188,8 +188,8 @@ async def gib_repo(client, CallbackQuery, _):
 @app.on_callback_query(filters.regex("allrepo") & ~BANNED_USERS)
 @languageCB
 async def support(client, CallbackQuery, _):
-    await CallbackQuery.edit_message_media(
-        Inputmediavideo("https://telegra.ph/file/b6b38b43c6d322f3b7e08.mp4", caption="ᴛʜɪs ɪs ᴀ ʀᴇᴘᴏ ᴀɴᴅ ᴅᴏɴᴀᴛᴇ sᴇᴄᴛɪᴏɴ :\n\n\nFᴇᴇʟ Fʀᴇᴇ ᴛᴏ Dᴏɴᴀᴛᴇ Fᴏʀ Oᴜʀ Wᴏʀᴋ...\nᴀɴᴅ\n\n💝sᴘʀᴇᴀᴅɪɴɢ ʟᴏᴠᴇ...💖"),
+    await CallbackQuery.edit_message_text(
+        text="ᴛʜɪs ɪs ᴀ ʀᴇᴘᴏ ᴀɴᴅ ᴅᴏɴᴀᴛᴇ sᴇᴄᴛɪᴏɴ :\n\n\nFᴇᴇʟ Fʀᴇᴇ ᴛᴏ Dᴏɴᴀᴛᴇ Fᴏʀ Oᴜʀ Wᴏʀᴋ...\nᴀɴᴅ\n\n💝sᴘʀᴇᴀᴅɪɴɢ ʟᴏᴠᴇ...💖",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
