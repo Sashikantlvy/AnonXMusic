@@ -61,7 +61,7 @@ async def gib_repo(client, CallbackQuery, _):
                     InlineKeyboardButton(
                         text="sᴜᴘᴘᴏʀᴛ", callback_data=f"lood"
                     ),
-                    InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", user_id=config.OWNER_ID),
+                    InlineKeyboardButton(text=_["S_B_5"], user_id=config.OWNER_ID),
                 ],
                 [
                     InlineKeyboardButton(
