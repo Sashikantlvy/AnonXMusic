@@ -54,9 +54,14 @@ async def settings_mar(client, message: Message, _):
 @languageCB
 async def gib_repo(client, CallbackQuery, _):
     await CallbackQuery.edit_message_media(
-        InputMediaVideo("https://telegra.ph/file/2e0d941212829173c69e8.mp4", has_spoiler=True),
+     InputMediaVideo("https://telegra.ph/file/2e0d941212829173c69e8.mp4", has_spoiler=True, caption="ʟᴜɴᴅ ʟᴇʟᴇ ᴍᴇʀᴀ ʀᴇᴘᴏ ᴋʏᴀ ᴋᴀʀᴇɢᴀ, ʟᴇɢᴀ ᴋʏᴀ ʙʜᴏsᴀᴅɪᴋᴇ"),
         reply_markup=InlineKeyboardMarkup(
             [
+                [
+                    InlineKeyboardButton(
+                        text="ᴇᴍᴍᴀ ʟᴏᴠᴇ", callback_data=f"emma_love"
+                    ),
+                ],
                 [
                     InlineKeyboardButton(
                         text="sᴜᴘᴘᴏʀᴛ", callback_data=f"lood"
@@ -95,7 +100,7 @@ async def support(client, CallbackQuery, _):
                     ),
 
                     InlineKeyboardButton(
-                        text="ᴍᴜsɪᴄ ɢʀᴏᴜᴘ", url="https://t.me/+YUDTBz5C_1o0YzE1"
+                        text="ᴍᴜsɪᴄ ɢʀᴏᴜᴘ", url="https://t.me/vohmusic"
                     ),
                     
                 ],
@@ -113,6 +118,33 @@ async def support(client, CallbackQuery, _):
                     InlineKeyboardButton(
                         text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper"
                     )
+                ],
+            ]
+        ),
+    )
+
+@app.on_callback_query(filters.regex("emma_love") & ~BANNED_USERS)
+@languageCB
+async def gib_repo(client, CallbackQuery, _):
+    await CallbackQuery.edit_message_media(
+        InputMediaVideo("https://telegra.ph/file/b6b38b43c6d322f3b7e08.mp4", has_spoiler=True, caption="ᴇᴍᴍᴀ ɪ ʟᴏᴠᴇ ʏᴏᴜ 💝🥵✨"),
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        text="sᴜᴘᴘᴏʀᴛ", callback_data=f"lood"
+                    ),
+                    InlineKeyboardButton(
+                        text="ᴅᴇᴠᴇʟᴏᴘᴇʀ", callback_data=f"developer"
+                    ),
+                ],
+                [
+                    InlineKeyboardButton(
+                        text="ʙᴀᴄᴋ", callback_data=f"settingsback_helper"
+                    ),
+                    InlineKeyboardButton(
+                        text="ᴄʟᴏsᴇ", callback_data=f"close"
+                    ),
                 ],
             ]
         ),
