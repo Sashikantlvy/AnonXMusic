@@ -184,6 +184,7 @@ async def gib_repo(client, CallbackQuery, _):
             ]
         ),
     )
+    
 @app.on_callback_query(filters.regex("allrepo") & ~BANNED_USERS)
 @languageCB
 async def gib_repo(client, CallbackQuery, _):
