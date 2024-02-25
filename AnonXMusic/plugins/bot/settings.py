@@ -10,7 +10,7 @@ from pyrogram.types import (
     InputMediaVideo,
 )
 
-from AnonXMusic import app
+from AnonXMusic import app, GB
 from AnonXMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
@@ -79,9 +79,10 @@ async def gib_repo(client, CallbackQuery, _):
 
 @app.on_callback_query(filters.regex("lood") & ~BANNED_USERS)
 @languageCB
-async def support(client, CallbackQuery, _):
-    await CallbackQuery.edit_message_media(
-        InputMediaVideo("https://telegra.ph/file/1dcb30951b56483758483.jpg", caption="ʜᴇʀᴇ ᴀʀᴇ ꜱᴏᴍᴇ ɪᴍᴘᴏʀᴛᴀɴᴛ ʟɪɴᴋꜱ.")
+async def gib_repo(client, CallbackQuery, _):
+    GB = random.choice(GB)
+    medx = InputMediaVideo(media=GB, caption="ʜᴇʀᴇ ᴀʀᴇ ꜱᴏᴍᴇ ɪᴍᴘᴏʀᴛᴀɴᴛ ʟɪɴᴋꜱ.")
+    await CallbackQuery.edit_message_media(media=medx,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
