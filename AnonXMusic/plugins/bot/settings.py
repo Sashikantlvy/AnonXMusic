@@ -194,6 +194,11 @@ async def support(client, CallbackQuery, _):
             [
                 [
                     InlineKeyboardButton(
+                        text="sᴜᴘᴘᴏʀᴛ", callback_data=f"lood"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
                         text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data=f"gib_source"
                     ),
                     InlineKeyboardButton(
