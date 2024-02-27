@@ -33,7 +33,7 @@ async def help(client: Client, message: Message):
 
                     InlineKeyboardButton(
                         text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/VOICEOFHEART0"
-                    ),
+                    )
                     
                 ],
                 [
@@ -53,7 +53,7 @@ async def help(client: Client, message: Message):
         photo=f"https://telegra.ph/file/1cb02101c98b30fd3bf22.jpg",
         caption=f"""ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘs""",
         reply_markup=InlineKeyboardMarkup(
-            
+              [
                     InlineKeyboardButton(
                         text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/STATUSDAIRY2"
                     ),
@@ -67,7 +67,7 @@ async def help(client: Client, message: Message):
 
                     InlineKeyboardButton(
                         text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/VOICEOFHEART0"
-                    ),
+                    )
                     
                 ],
                 [
@@ -87,7 +87,7 @@ async def help(client: Client, message: Message):
         photo=f"https://telegra.ph/file/1cb02101c98b30fd3bf22.jpg",
         caption=f"""ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘs""",
         reply_markup=InlineKeyboardMarkup(
-            
+               [
                     InlineKeyboardButton(
                         text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/STATUSDAIRY2"
                     ),
@@ -101,7 +101,7 @@ async def help(client: Client, message: Message):
 
                     InlineKeyboardButton(
                         text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/VOICEOFHEART0"
-                    ),
+                    )
                     
                 ],
                 [
