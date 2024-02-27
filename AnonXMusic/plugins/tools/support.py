@@ -54,6 +54,7 @@ async def help(client: Client, message: Message):
         caption=f"""ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘs""",
         reply_markup=InlineKeyboardMarkup(
               [
+                  [
                     InlineKeyboardButton(
                         text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/STATUSDAIRY2"
                     ),
@@ -88,6 +89,7 @@ async def help(client: Client, message: Message):
         caption=f"""ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘs""",
         reply_markup=InlineKeyboardMarkup(
                [
+                   [
                     InlineKeyboardButton(
                         text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/STATUSDAIRY2"
                     ),
