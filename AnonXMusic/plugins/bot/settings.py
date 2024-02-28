@@ -86,7 +86,7 @@ async def gib_repo(client, CallbackQuery, _):
 @languageCB
 async def support(client, CallbackQuery, _):
     await CallbackQuery.edit_message_text(
-        text="ʜᴇʀᴇ ᴀʀᴇ ꜱᴏᴍᴇ ɪᴍᴘᴏʀᴛᴀɴᴛ ʟɪɴᴋꜱ.",
+        text="๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.\n\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ ˹ᴇᴍᴍᴀ ✘ ᴍᴜsɪᴄ˼ ♪ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ ˹ᴇᴍᴍᴀ ✘ ᴍᴜsɪᴄ˼ ♪, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -110,7 +110,7 @@ async def support(client, CallbackQuery, _):
                     ),
 
                     InlineKeyboardButton(
-                        text="ᴄʜᴀᴛᴛɪɴɢ", url="https://t.me/VOICEOFHEART0"
+                        text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/VOICEOFHEART0"
                     ),
                     
                 ],
