@@ -130,7 +130,6 @@ async def gib_repo(client, CallbackQuery, _):
         InputMediaVideo("https://telegra.ph/file/b6b38b43c6d322f3b7e08.mp4", has_spoiler=True, caption="ᴇᴍᴍᴀ ɪ ʟᴏᴠᴇ ʏᴏᴜ 💝🥵✨"),
         reply_markup=InlineKeyboardMarkup(
             [
-                [
                     
                 [
                     InlineKeyboardButton(
