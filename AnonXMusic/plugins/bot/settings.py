@@ -35,7 +35,7 @@ from AnonXMusic.utils.inline.settings import (
     setting_markup,
     vote_mode_markup,
 )
-from AnonXMusic.utils.inline.start import private_panel
+from AnonxXMusic.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID, MUSIC_BOT_NAME, START_IMG_URL
 
 
@@ -130,14 +130,14 @@ async def gib_repo(client, CallbackQuery, _):
         InputMediaVideo("https://telegra.ph/file/b6b38b43c6d322f3b7e08.mp4", has_spoiler=True, caption="ᴇᴍᴍᴀ ɪ ʟᴏᴠᴇ ʏᴏᴜ 💝🥵✨"),
         reply_markup=InlineKeyboardMarkup(
             [
-                    
+                
                 [
                     InlineKeyboardButton(
                         text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://github.com/THEMADMAXPRO/MadmaxXMusic"
                     )
                 ],
                 [
-                       InlineKeyboardButton(
+                    InlineKeyboardButton(
                         text="sᴜᴘᴘᴏʀᴛ", callback_data=f"lood"
                     ),
                     InlineKeyboardButton(
